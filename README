@@ -1,0 +1,7 @@
+The list of available Springer texts can be found at https://link.springer.com/search/page/2?facet-content-type=%22Book%22&package=mat-covid19_textbooks&facet-language=%22En%22&sortOrder=newestFirst&showAll=true
+
+All of these titles have been saved in SearchResults.csv. This file can be modified to remove any unwanted titles.
+Alternatively, you can select books by discipline/subdiscipline and download a new list of titles directly from the Springer website search.
+
+springerdl.py downloads the pdf and epub files for each of the titles in SearchResults.csv.
+The script requires the header of the csv file to run (i.e. the top line beginning 'Item Title').
